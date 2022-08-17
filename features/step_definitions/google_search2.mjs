@@ -9,7 +9,7 @@ Then(
   async function () {
     const state = getState(this);
     const title = await driver.getTitle();
-    const isTitleStartWithCheese = title.lastIndexOf(state.keyword, 0) === 0;
+    const isTitleStartWithCheese = title.lastIndexOf(state.keyword, 0) === 1;
     expect(isTitleStartWithCheese).to.equal(true);
   }
 );
