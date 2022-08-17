@@ -1,0 +1,26 @@
+{
+  "name": "automate-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levanthanh-ptit/automate-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levanthanh-ptit/automate-starter/issues"
+  },
+  "homepage": "https://github.com/levanthanh-ptit/automate-starter#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "chai": "^4.3.6",
+    "chromedriver": "^104.0.0",
+    "selenium-webdriver": "^4.4.0"
+  }
+}
