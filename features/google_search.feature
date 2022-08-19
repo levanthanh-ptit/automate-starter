@@ -1,3 +1,5 @@
+@UC1.1
+@skip
 Feature: Google search
   Scenario: Finding some cheese
     Given I am on the Google search page
