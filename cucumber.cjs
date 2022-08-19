@@ -1,11 +1,12 @@
 const now = new Date().toISOString().replaceAll(":", "-");
 module.exports = {
-  default: {
+  release: {
     parallel: 5,
-    format: [`html:./reports/report_${now}.html`],
-    formatOptions: {
-      snippetInterface: "synchronous"
-    },
+    format: [`html:./release-reports/report_${now}.html`],
     publishQuiet: true,
+    tags: "not (@skip or @wip)"
   },
+  default: {
+    format: [`html:./reports/report_${now}.html`],
+  }
 };

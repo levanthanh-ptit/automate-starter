@@ -1,3 +1,4 @@
+@wip
 Feature: logout
   Background: login
     Given userName and passWord

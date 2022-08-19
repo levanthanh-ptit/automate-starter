@@ -5,7 +5,8 @@
   "main": "index.js",
   "type":"module",
   "scripts": {
-    "test": "cucumber-js"
+    "release-test": "cucumber-js -p release",
+    "dev-test": "cucumber-js"
   },
   "repository": {
     "type": "git",

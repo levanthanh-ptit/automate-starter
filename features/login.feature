@@ -1,5 +1,5 @@
+@wip
 Feature: Login
-
   Scenario: Login Pass
     Given userName and passWord
     When input userName and passWord
